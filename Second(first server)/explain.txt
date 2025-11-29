@@ -1,0 +1,24 @@
+1) const http = require('http')
+    Imports Node.js’s built-in HTTP module, which allows you to create a web server.
+
+2)http.createServer((req, res) => { ... })
+    Creates an HTTP server.
+
+3)req → incoming request details
+
+4)res → used to send a response
+    This function runs every time a client sends a request to the server.
+
+5)server.listen(PORT, callback)
+    Starts the server and makes it listen on a specific port.
+
+6)PORT → the port number (e.g., 3000)
+
+7)callback → optional function that runs after the server starts (commonly used to print “server running…”)
+
+8)Alternative syntax: server.listen(PORT)
+    Starts the server without a callback.
+    You must manually open the browser and visit localhost:PORT to check it.
+
+9)Purpose of PORT
+    Defines where the server will accept incoming connections.
