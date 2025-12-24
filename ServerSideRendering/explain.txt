@@ -1,0 +1,73 @@
+1)  redirecting_request.js
+        This program creates a simple web server using Node.js HTTP module.
+
+        1. require("http")
+        - Imports the built-in HTTP module to create a server.
+
+        2. http.createServer((req, res))
+        - Creates an HTTP server.
+        - req → contains request details (URL, method, headers).
+        - res → used to send response back to browser.
+
+        3. res.setHeader("content-type", "text/html")
+        - Informs the browser that the response is HTML.
+
+        4. req.url
+        - Used to check the requested route (URL path).
+        - Different pages are served using if–else conditions.
+
+        5. res.write()
+        - Sends HTML content to the client.
+
+        6. res.end()
+        - Ends the response.
+        - Mandatory to complete the HTTP request.
+
+        7. server.listen(PORT)
+        - Starts the server on the given port.
+        - Server becomes accessible via browser.
+
+        Access server at:
+        http://localhost:3001
+
+
+
+
+
+
+
+2) server_rendering.js
+
+
+        This program creates a Node.js HTTP server that serves a form and an output page.
+
+        1. require("http")
+        - Imports the built-in HTTP module.
+
+        2. http.createServer((req, res))
+        - Creates an HTTP server.
+        - req → contains request information.
+        - res → used to send response.
+
+        3. res.setHeader("content-type", "text/html")
+        - Tells browser that response is HTML.
+
+        4. console.log(req.url)
+        - Prints the requested URL in terminal.
+
+        5. if (req.url === "/output")
+        - Handles /output route.
+        - Displays the output page.
+
+        6. else block
+        - Displays an HTML form.
+        - Form submits data to /output using POST method.
+
+        7. res.write()
+        - Writes HTML content to response.
+
+        8. server.listen(PORT)
+        - Starts server on port 3001.
+
+        Access server at:
+        http://localhost:3001
