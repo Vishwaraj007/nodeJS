@@ -28,7 +28,11 @@ const userRequest = (req,res) =>{
                 objBody[key] = value;
             }
             console.log('IN KEY VALUE PAIR FORMAT :                            ',objBody); //printing the keys and values pairs
+            const result = Number(objBody.num1) + Number(objBody.num2);
+            console.log('Sum : ',result);
 
+
+            res.write(`The Sum of ${objBody.num1} and ${objBody.num2} is ${result}`);
         });
 
         /*   ANOTHER EVENT LIKE 'data'
