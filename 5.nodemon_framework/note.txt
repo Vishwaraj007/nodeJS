@@ -1,0 +1,17 @@
+1) npm init
+    - for initializing the node application
+2) in package.json we can add custom syntax for launching our application
+    e.g. "start" : "node app.js" ------------>   after this we can launch our application with command "npm start"
+
+3) install package : 
+    SYNTAX : "npm install <package_name>"
+    e.g. npm install nomemon --save-dev -g
+        i) --save-dev : save for developers only
+        ii) -g : save globally...
+4) now nodemon is installed so we dont have to restart our server maually everytime....
+    just type "npx nodemon app.js" once 
+    then dont worry about refreshing..........................................................................
+
+
+      ANDROID                    NODE
+    (app.gradle)    ==         (app.json)
