@@ -1,7 +1,7 @@
 const userRequest = (req,res) =>{
     res.write('<html> <body>');
     const body = [];
-    if(req.url === "/operation")        //if url contains /operation
+    if(req.url === "/operation")        //if url is /operation
     {
         res.write('<form method="POST"')
         res.write('<h1>!...SIMPLE CALCULATOR...!');
@@ -13,7 +13,7 @@ const userRequest = (req,res) =>{
 
 
         req.on('data',(chunk)=>{   // 'data' event
-            body.push(chunk);        //pushing chunk of data into 'body' array
+            body.push(chunk);        //pushing chunk of data into 'body' array            ********************BODY IS A ARRAY ****************
             console.log('IN CHUNKS  :           ',chunk);        // printing chunk.......
 
 
