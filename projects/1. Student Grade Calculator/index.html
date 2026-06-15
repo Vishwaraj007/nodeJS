@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mark Calculator</title>
+</head>
+<body>
+
+    <h1>Marks Calculator</h1>
+    <div class="main">
+            <div class="child_container" id = "step1">
+                <h2>Enter Details</h2>
+                Enter name : <input type="text" id="name"><br>
+                Enter number Of Subjects : <input type="text" id="subjectNum">
+                <br><input type="button" value="Next" id ="dtm">
+            </div> 
+
+            <div class="child_container" id = "step2">
+                <h2>Enter Marks</h2>
+                Subject Subject name : <input type="text" id="subName"><br>
+                Enter Marks : <input type="text" id="mark">
+                <br><input type="button" value="Next" id="cal">
+            </div> 
+
+            <div class="child_container" id = "step3">
+                <h1><span id="result_name"></span>'s Result</h1>
+                <table id="result_Table" border="1">
+                    <thead>
+                        <tr>
+                        <th>Subject</th>
+                        <th>marks</th>
+                        <th>percentage</th>
+                        </tr>
+                    </thead>
+                </table>
+                <h1>You Got Total <span id="percentage">%.</span></h1>
+                
+            </div> 
+            
+
+    </div>
+    
+    
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</html>
