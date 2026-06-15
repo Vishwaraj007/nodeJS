@@ -31,7 +31,7 @@
 
 ---
 
-## 📌 Project 1 — Student Grade Calculator
+## ✅ Project 1 — Student Grade Calculator(Completed)
 
 ### 🎯 Problem
 Calculate grades from marks.
@@ -42,9 +42,9 @@ Input Marks → Button → Grade Output
 ```
 
 ### ✨ Features
-- [ ] Input marks
-- [ ] Calculate percentage
-- [ ] Show grade
+- ✅ Input marks
+- ✅ Calculate percentage
+- ✅ Show grade
 
 ### 🧠 Concepts
 - Variables
