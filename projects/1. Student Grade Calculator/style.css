@@ -128,3 +128,7 @@ tbody tr:hover{
         transform: translateY(0);
     }
 }
+
+#grade{
+    color: red;
+}
