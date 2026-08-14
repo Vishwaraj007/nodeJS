@@ -1,0 +1,30 @@
+REST-API JSON
+
+1) GET /users -----> display all the user(for browser : responce in html(ssr))
+2) GET /api/users -----> Display all the user (for api (application and mobile) : responce in json(csr) )
+
+3) GET /api/users/1  -----> display the user with the id 1 (json)(CSR)
+4) GET /users/2  -----> diaply the user with the is 2 (HTML)(SSR)
+
+    use Dynamic path parameter
+    e.g. GET /api/user/:id --------> here id is a variable | DYNAMIC 
+4) POST /api/users -----> add new user.
+5) PATCH /api/users/1  --------->   UPDATE the user with id 1
+6) DELETE /api/users/1  -------->  DELETE the user with id 1
+
+
+
+
+
+
+NOTES : 
+    1) this is a hybrid server because we are using this backend for both browser and application, for browser it will send the html(SSR) and for the application it will send the json (CSR)
+    2) USING DYANMIC PATH PARAMETER --->  this method allows us to send the dynamic parameters in the url (e.g ---->   :id)
+    3) USING ALL HTTP METHODS (GET,POST,PATCH,DELETE)
+
+    these three things proves thats this is not a normal api its a rest api...
+
+
+
+
+    (FOR THIS POJECT WE ARE GENERATING THE MOCK DATA FROM THE MOCKAROO.COM IN JSON FORMAT...) 
