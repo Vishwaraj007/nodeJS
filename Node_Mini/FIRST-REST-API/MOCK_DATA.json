@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "first_name": "Clive",
-        "last_name": "Tolfrey",
-        "email": "ctolfrey0@ucla.edu",
-        "gender": "Male",
-        "job_title": "Software Consultant"
+        "first_name": "virat",
+        "last_name": "Joshi",
+        "email": "virat@gmail.com",
+        "gender": "male",
+        "job_title": "frontend developer"
     },
     {
         "id": 2,
@@ -30,14 +30,6 @@
         "email": "cmatuszyk3@geocities.com",
         "gender": "Female",
         "job_title": "Financial Advisor"
-    },
-    {
-        "id": 5,
-        "first_name": "Sharl",
-        "last_name": "Paolozzi",
-        "email": "spaolozzi4@cam.ac.uk",
-        "gender": "Female",
-        "job_title": "Engineer I"
     },
     {
         "id": 6,
@@ -70,14 +62,6 @@
         "email": "odraisey8@about.com",
         "gender": "Male",
         "job_title": "Mechanical Systems Engineer"
-    },
-    {
-        "id": 10,
-        "first_name": "Wendi",
-        "last_name": "Westphal",
-        "email": "wwestphal9@vkontakte.ru",
-        "gender": "Female",
-        "job_title": "Quality Control Specialist"
     },
     {
         "id": 11,
@@ -7992,11 +7976,19 @@
         "job_title": "Electrical Engineer"
     },
     {
-        "id": 1000,
-        "first_name": "Florentia",
-        "last_name": "Lemoir",
-        "email": "flemoirrr@google.co.uk",
-        "gender": "Female",
-        "job_title": "Assistant Media Planner"
+        "first_name": "soham",
+        "last_name": "Joshi",
+        "email": "soham@gmail.com",
+        "gender": "male",
+        "job_title": "frontend developer",
+        "id": 1001
+    },
+    {
+        "first_name": "rajvardhan",
+        "last_name": "Joshi",
+        "email": "rajvardhan@gmail.com",
+        "gender": "male",
+        "job_title": "frontend developer",
+        "id": 1000
     }
 ]
