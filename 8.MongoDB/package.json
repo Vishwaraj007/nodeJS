@@ -1,0 +1,16 @@
+{
+  "name": "8.mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "author": "vishwaraj",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.10.0"
+  }
+}
