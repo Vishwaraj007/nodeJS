@@ -25,7 +25,7 @@ app.get("/users",(req,res) => {
         <td>${user.email}</td>
         <td>${user.gender}</td>
         <td>${user.job_title}</td>
-        </tr>`)}
+      </tr>`)}
     </table>
     `;
 
